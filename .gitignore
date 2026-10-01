@@ -1,0 +1,30 @@
+# Environments
+venv/
+.venv/
+env/
+
+# Secrets & Credentials (NEVER TRACK)
+.env
+firebase-credentials.json
+*.key
+*.pem
+
+# Model Weights & Compiled Binaries (Heavy files)
+*.pt
+*.onnx
+*.onnx.json
+*.ort
+*.dll
+*.exe
+piper_bin/
+
+# Runtime & Test Audio Artifacts
+*.wav
+*.mp3
+*.tts
+
+# Python Cache & OS Junk
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
